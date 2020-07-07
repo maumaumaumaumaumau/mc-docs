@@ -67,12 +67,28 @@ name (optional)
 arguments (optional)
 ```
 
+**Example:**
+```
+function name(arg1,arg2){
+
+}
+```
+
 ### return
 
-Returns a value or results of a function call.
+Returns a value and finishes evaluation either on a function call or the main code.
 Arguments:
 ```
 variant
 ```
+
+**Example:**
+```
+function a(b,c){
+return b+c # Use of return
+}
+print(a(1,2)) # 3
+```
+
 
 ---
