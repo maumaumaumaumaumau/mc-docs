@@ -212,7 +212,8 @@ number (1 argument)
 ### time
 
 Returns how many seconds have passed since the unix epoch.
-This function requires no arguments.
+
+**This function requires no arguments.**
 
 
 ---
