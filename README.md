@@ -32,7 +32,7 @@ mau-code has upvalues wich are variables defined on the main environment or the 
 ## Syntax
 
 ---
-As said above, the syntax will be similar to lua and js. Function enclosements are with {}, if statements don't require () unlike javascript.
+As said above, the syntax will be similar to lua and js. Function enclosements are with {}, if statements don't require () unlike javascript.  
 Two examples of the syntax are here.
 
 ```
@@ -60,7 +60,7 @@ mau-code has some keywords for  statements & functions, those are:
 
 ### function
 
-Defines a function on the environment.
+Defines a function on the environment.  
 Arguments:
 ```
 name (optional)
@@ -76,7 +76,7 @@ function name(arg1,arg2){
 
 ### return
 
-Returns a value and finishes evaluation either on a function call or the main code.
+Returns a value and finishes evaluation either on a function call or the main code.  
 Arguments:
 ```
 variant
@@ -105,7 +105,7 @@ print(a) # null
 
 ### if
 
-Used for statements, runs code if the given condition is true.
+Used for statements, runs code if the given condition is true.  
 Arguments:
 ```
 variant (condition)
@@ -152,7 +152,7 @@ mau-code has 8 primitive functions that are built-in, this section has all of th
 
 ### print
 
-Logs given arguments to the console.
+Logs given arguments to the console.  
 Arguments:
 
 ```
@@ -161,7 +161,7 @@ tuple (multiple arguments)
 
 ### type
 
-Returns the datatype of the given obect.
+Returns the datatype of the given obect.  
 Arguments:
 
 ```
@@ -170,7 +170,7 @@ variant (1 argument)
 
 ### concatfunc
 
-Returns a string containing the source of a function (by abstract syntax tree). (may not be completely accurate)
+Returns a string containing the source of a function (by abstract syntax tree). (may not be completely accurate)  
 Arguments:
 
 ```
@@ -179,7 +179,7 @@ function (1 argument)
 
 ### error
 
-Errors to the console & stops code execution.
+Errors to the console & stops code execution.  
 Arguments:
 
 ```
@@ -188,14 +188,14 @@ string (1 argument)
 
 ### fac
 
-Returns the factorial of the given number.
+Returns the factorial of the given number.  
 Arguments:
 ```
 number (1 argument)
 ```
 ### sin
 
-Returns the sine of the given number.
+Returns the sine of the given number.  
 Arguments:
 ```
 number (1 argument)
@@ -203,7 +203,7 @@ number (1 argument)
 
 ### cos
 
-Returns the cosine of an angle.
+Returns the cosine of an angle.  
 Arguments:
 ```
 number (1 argument)
@@ -211,7 +211,7 @@ number (1 argument)
 
 ### time
 
-Returns how many seconds have passed since the unix epoch.
+Returns how many seconds have passed since the unix epoch.  
 
 **This function requires no arguments.**
 
