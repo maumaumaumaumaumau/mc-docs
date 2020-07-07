@@ -67,6 +67,12 @@ name (optional)
 arguments (optional)
 ```
 
+### return
 
+Returns a value or results of a function call.
+Arguments:
+```
+variant
+```
 
 ---
