@@ -32,7 +32,7 @@ mau-code has upvalues wich are variables defined on the main environment or the 
 ## Syntax
 
 ---
-As said above, the syntax will be similar to lua and js. Function enclosements are with {}, if statements don't require () unlike javascript.  
+As said above, the syntax is be similar to lua and js. Function enclosements are with {}, if statements don't require () unlike javascript.  
 Two examples of the syntax are here.
 
 ```
