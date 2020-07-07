@@ -12,12 +12,6 @@ mau-code is a 'programming language' made in lua wich has a different but simila
 ## Warning
 The interpreter is not open-source yet, you'll have to wait until it is open.
 
----
-
-
-
-
-
 
 # Getting started
 ---
@@ -46,7 +40,7 @@ Two examples of the syntax are here.
 # Hello world program.
 print("Hello World!")
 ```
-
+---
 ```
 # Functions with return.
 a = function(b,c){ # valid
